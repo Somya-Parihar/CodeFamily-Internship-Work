@@ -1,0 +1,13 @@
+body{
+    background-image: url("laugh.webp");
+}
+.heading {
+    text-align: center;
+}
+#content {
+    text-align: center;
+}
+.joke {
+    text-align: center;
+    color: red;
+}
