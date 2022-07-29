@@ -1,0 +1,119 @@
+:root {
+    background-image: linear-gradient(45deg,rgb(80, 80, 80),rgb(243, 152, 49));
+    font-size: 100%;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 4.5rem;
+    color: rgb(40, 40, 40);
+    margin-bottom: 5rem;
+}
+h1 > span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+h2 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* UTILITTIES */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.container > * {
+    width: 100%;
+}
+.start {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.start {
+    margin: 2rem auto;
+    border: none;
+    height: 4rem;
+    background-color: transparent;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+    border: 0.2rem solid black;
+}
+.start:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(32, 36, 38, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    text-decoration: underline;
+    
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+input {
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 15rem;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(32, 36, 38, 0.5);
+}
+input::placeholder {
+    color: #eebf50;
+}
+.btn {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+    height: 3rem;
+    border: 0.1rem solid #f6e563;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #eebf50;
+    background-color: rgb(237, 237, 237);
+  }
+.btn :hover{
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.start-page {
+    font-size: 3rem;
+}
